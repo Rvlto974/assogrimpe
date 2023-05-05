@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+<title>Grimpe</title>
+</head>
+<body>
+    
+  <header class="header">
+    <div class="container d-flex">
+        <div class="logo">
+Entre ciel et pierre
+        </div>
+
+        <nav class="navbar">
+        <ul class="menu list-unstyled">
+            <li><a href="#hero">Accueil</a></li>
+            <li><a href=#about>A propos</a></li>
+                <li><a href=#activités>Activités</a></li>
+                <li><a href=#contact>contact</li>
+                    
+                </ul>
+            </nav>
+            
+            <div class="right">
+                <ul class="socials list-unstyled">
+                    <li>
+                      <a href="https://google.fr" target="_blank">
+                        <svg  aria-hidden="true" class="icon facebook" focusable="false" data-prefix="fab"
+                          data-icon="facebook-f" class="svg-inline--fa fa-facebook-f fa-w-10" role="img"
+                          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                          <path fill="currentColor"
+                            d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                          </path>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://google.fr">
+                        <svg  aria-hidden="true" class="icon linkedin" focusable="false" data-prefix="fab"
+                          data-icon="linkedin-in" class="svg-inline--fa fa-linkedin-in fa-w-14" role="img"
+                          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                          <path fill="currentColor"
+                            d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                          </path>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://google.fr">
+                        <svg  aria-hidden="true" class="icon twitter" focusable="false" data-prefix="fab"
+                          data-icon="twitter" class="svg-inline--fa fa-twitter fa-w-16" role="img"
+                          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                          <path fill="currentColor"
+                            d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                          </path>
+                        </svg>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://google.fr">
+                        <svg  aria-hidden="true" class="icon insta" focusable="false" data-prefix="fab"
+                          data-icon="instagram" class="svg-inline--fa fa-instagram fa-w-14" role="img"
+                          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                          <path fill="currentColor"
+                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                          </path>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                  <button class="burger"><span class="bar"></span></button>
+        </div>
+    </div>
+</header>
+
+<section id="hero" class="hero">
+    <div class="container">
+        <div class="grid">
+    <div class="hero-item left">
+        <span>Association spécialisée dans les sports outdoor</span>
+        <h1>Bienvenue sur l'association Entre ciel et pierre</h1>
+        <p>"Connectez-vous avec la nature : rejoignez notre association spécialisée dans l'outdoor !"</p>
+    </div>
+    <div class="hero-item right">
+        <div class="hero-avatar">
+            <img src="./img/La-reunion.jpg" alt="grimpe">
+        </div>
+    
+    </div>
+</div>
+</section>
+
+<section id="about" class="about">
+    <div class="container">
+    <div class="grid">
+        <div class="grid-item">
+            <img width="560" height="453" src="./img/bg-ski.jpg" alt="ski">
+        </div>
+        <div class="grid-item">
+<h2 class="section-title">A propos</h2>
+<h3>Qui sommes-nous!</h3>
+<p>Notre site est dédié à notre association spécialisée dans l'outdoor.</p>
+<p>Nous sommes une communauté de passionnés de nature et de sports outdoor, ouverte à tous ceux qui veulent découvrir de nouvelles expériences en plein air.</p>
+ Nous organisons régulièrement des sorties et des activités en montagne, camping, kayak, etc. Notre site offre une plateforme facile à utiliser pour les membres de notre association, pour faciliter les échanges et les communications entre les participants.</p> 
+ Vous y trouverez toutes les informations nécessaires pour profiter au maximum de vos activités en plein air.</p>
+
+ <p>Rejoignez-nous pour partager ensemble de belles aventures en pleine nature !</p>
+        
+</div>
+    </div>
+    </div>
+    </section>
+       <section id="activités" class="activités">
+        <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Nos activités</h2>
+            <p>Notre association offre une variété d'activités outdoor pour tous les niveaux et tous les goûts. Nous proposons des randonnées, des sorties en kayak, des activités de camping, des excursions en montagne, des sorties d'observation de la faune et des promenades dans les parcs naturels. Que vous soyez débutant ou expérimenté, il y a quelque chose pour tout le monde. Joignez-vous à nous pour vivre des moments inoubliables en pleine nature et pour découvrir les plaisirs de l'outdoor !</p>
+        </div>
+        <div class="grid">
+            <div class="grid-item">
+                <div class="activités">
+                  <div class="activités-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48"><path d="m282 1016 121-620q5-24 23-37t38-13q20 0 37.5 9t28.5 26l39 64q19 32 52.5 57t78.5 39v-75h40v550h-40V602q-51-11-96-39t-80-69l-29 145 85 81v296h-60V772l-100-95-74 339h-64Zm17-403-75-14q-10-2-17.5-13t-5.5-22l30-157q5-29 29-44.5t53-10.5l36 7-50 254Zm231-311q-30 0-51.5-21.5T457 229q0-30 21.5-51.5T530 156q30 0 51.5 21.5T603 229q0 30-21.5 51.5T530 302Z"/></svg>
+                  </div>  
+                  <div class="activités-content">
+                    <h3>TREKKING</h3>
+                    <p>Le trekking est une activité de randonnée en montagne qui permet de découvrir des paysages spectaculaires et de vivre une expérience de plein air unique. C'est une activité qui nécessite une certaine forme physique et de l'endurance, mais qui récompense les participants par des vues imprenables et des moments inoubliables en pleine nature.</p>
+                  </div>
+                </div>
+
+                <div class="activités">
+                    <div class="activités-icon">
+                      
+                        <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48"><path d="M355 1016q-15 0-35.5-14T278 962L165 823l31-26 60 74 109-81 72-363-102 46v133h-61V433l177-75q18-8 30.5-11t29.5-3q18 0 36.5 8.5T576 377l42 66q32 50 76.5 76T795 546v60q-69-2-118.5-30T578 484l-41 156 92 83v254q29-2 50-9t34-14q3-2 6-2.5t5-.5q10 0 15.5 6t5.5 14q0 5-2.5 10t-7.5 8q-18 11-41 19t-54 8H495v-40h74V776l-108-98-34 144-133 97 19 22q11 12 23.5 21t26.5 15q6 3 9.5 8t3.5 12q0 8-6.5 13.5T355 1016Zm227-714q-30 0-51.5-21.5T509 229q0-30 21.5-51.5T582 156q30 0 51.5 21.5T655 229q0 30-21.5 51.5T582 302Z"/></svg>
+                    </div>  
+                    <div class="activités-content">
+                      <h3>Marche nordique</h3>
+                      <p>La marche nordique est une activité sportive complète qui combine l'exercice physique et la découverte de la nature. Elle implique une marche rapide avec l'utilisation de bâtons spécifiques, qui permettent d'activer les muscles du haut du corps tout en soulageant les articulations. Elle est idéale pour tous ceux qui cherchent une activité sportive douce mais efficace pour améliorer leur condition physique et leur bien-être général.</p>
+                    </div>
+                  </div>
+
+                  <div class="activités">
+                    <div class="activités-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48"><path d="M440 936q-100 0-170-70t-70-170V480l176 176-42 43-74-74v71q0 75 53 127.5T440 876q75 0 127.5-52.5T620 696V562q-35-11-57.5-40.5T540 456q0-36 22.5-65.5T620 350V176h60v174q35 11 57.5 40.5T760 456q0 36-22.5 66T680 562v134q0 100-70 170t-170 70Zm210-430q21 0 35.5-15t14.5-35q0-21-14.5-35.5T650 406q-20 0-35 14.5T600 456q0 20 15 35t35 15Zm0-50Z"/></svg>
+                    </div>  
+                    <div class="activités-content">
+                      <h3>Pêche</h3>
+                      <p>Notre association de pêche vous offre l'opportunité de découvrir de nouveaux endroits pour pêcher et de partager votre passion avec d'autres membres, dans le respect des règles environnementales en vigueur.
+                        Nos sorties de pêche en groupe, encadrées par des experts passionnés, sont adaptées à tous les niveaux et vous permettront de vous connecter avec la nature tout en apprenant de nouvelles techniques de pêche.</p>
+                    </div>
+                  </div>
+
+                  
+                  <div class="activités">
+                    <div class="activités-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48"><path d="M261 896q-26 0-43-17t-17-43q0-18 9-34.5t26-23.5l172-68V572q-66 81-134 122t-154 41v-60q68 0 124-31.5T345 555l58-65q10-12 23.5-20t29.5-8h48q16 0 30 8t24 20l58 65q48 55 102 87.5T840 675v60q-85 0-153.5-41T552 572v138l172 68q17 7 26 23.5t9 34.5q0 26-17 43t-43 17H396v-11q0-26 16-42t42-16h133q8 0 14-6t6-14q0-8-6-14t-14-6H454q-44 0-70 27t-26 71v11h-97Zm219-494q-30 0-51.5-21.5T407 329q0-30 21.5-51.5T480 256q30 0 51.5 21.5T553 329q0 30-21.5 51.5T480 402Z"/></svg>
+                    </div>  
+                    <div class="activités-content">
+                      <h3>Yoga</h3>
+                      <p>Rejoignez notre association de yoga pour découvrir une pratique ancestrale qui vous aidera à vous relaxer, à mieux respirer et à renforcer votre corps et votre esprit.
+                        Nos cours de yoga, adaptés à tous les niveaux, sont animés par des professeurs certifiés et passionnés, qui vous accompagneront dans votre pratique pour vous aider à atteindre un état de bien-être et de sérénité.</p>
+                    </div>
+                  </div>
+
+                  <div class="activités">
+                    <div class="activités-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48"><path d="M741 1016q-24 0-48-4t-47-11L81 795l13-38 289 105 70-181-159-166q-23-26-18-59t34-50l155-90q14-8 30-8.5t30 4.5q14 5 25.5 16t16.5 26l13 43q17 54 49.5 87t79.5 49l21-64 38 11-39 121q-68-14-119-54t-78-108l-132 76 124 145-85 222 143 52 94-292q10 3 19 5.5t18 4.5l-94 296 41 14q19 7 39 10.5t42 3.5q29 0 56-5.5t53-18.5l30 30q-33 17-67 25.5t-72 8.5Zm-73-674q-30 0-51.5-21.5T595 269q0-30 21.5-51.5T668 196q30 0 51.5 21.5T741 269q0 30-21.5 51.5T668 342Z"/></svg>
+                    </div>  
+                    <div class="activités-content">
+                      <h3>Ski de randonnée</h3>
+                      <p>Le ski de randonnée est une activité de plein air qui vous permettra de découvrir des paysages à couper le souffle, loin des pistes bondées et du bruit des remontées mécaniques. Rejoignez notre association pour des sorties encadrées par des guides professionnels qui vous permettront de pratiquer le ski en montagne en toute sécurité.
+                        Que vous soyez débutant ou confirmé, nos sorties de ski de randonnée sont adaptées à tous les niveaux et vous permettront de vous connecter avec la nature tout en vous challengeant physiquement. Venez rejoindre notre association pour vivre une expérience unique de ski en montagne.</p>
+                    </div>
+                  </div>
+  
+                  <div class="activités">
+                      <div class="activités-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48"><path d="m144 1016-48-36 109-146 46-195q5-21 18-36t35-22l383-117 84-176 112-112 37 37-101 110-67 187-196 137-238 75-61 143-113 151Zm-31-327q-30 0-51.5-21.5T40 616q0-30 21.5-51.5T113 543q30 0 51.5 21.5T186 616q0 30-21.5 51.5T113 689Zm220-166q-20 6-37.5-4.5T272 488q-5-20 4.5-37.5T306 427l183-55 26 97-182 54Z"/></svg>
+                      </div>  
+                      <div class="activités-content">
+                        <h3>Plongée</h3>
+                        <p>Rejoignez notre association de plongée pour explorer les fonds marins et découvrir un monde sous-marin fascinant en toute sécurité avec nos sorties encadrées par des moniteurs certifiés.
+                          Que vous soyez débutant ou expérimenté, notre association vous offre l'opportunité de vous initier à la plongée ou de vous perfectionner avec des sorties de plongée en groupe pour découvrir des paysages subaquatiques extraordinaires et des espèces marines incroyables.</p>
+                      </div>
+                    </div>
+  
+                    <div class="activités">
+                      <div class="activités-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48"><path d="M80 1016v-60h40q31 0 61.5-10.5T240 907q28 28 58.5 38.5T360 956q30 0 61.5-11t58.5-38q29 28 59 38.5t61 10.5q30 0 61.5-11t58.5-38q27 27 58.5 38t61.5 11h40v60h-40q-29 0-59.5-8.5T720 976q-30 23-60.5 31.5T600 1016q-29 0-59.5-8.5T480 976q-30 23-60.5 31.5T360 1016q-29 0-59.5-8.5T240 976q-30 23-60.5 31.5T120 1016H80Zm280-156q-33 0-65-18t-55-47q-13 14-31 27.5T174 847q-39-8-84.5-21.5T0 796q53-21 137.5-42T293 721l56-179q8-28 34-39t51 2l106 56 121-64 70-162-20-53 48-105 109 49-47 105-53 20-156 363q91 11 191 35t157 47q-44 16-89.5 29.5T786 847q-17-11-35-24.5T720 795q-23 29-55 47t-65 18q-33 0-65-18t-55-47q-23 29-55 47t-65 18Zm209-151 52-124-81 42-76-38-36 117h52q23 0 44.5.5T569 709Zm-89-247q-30 0-51.5-21.5T407 389q0-30 21.5-51.5T480 316q30 0 51.5 21.5T553 389q0 30-21.5 51.5T480 462Z"/></svg>
+                      </div>  
+                      <div class="activités-content">
+                        <h3>kayak</h3>
+                        <p>Envie de naviguer sur des rivières et des lacs pittoresques tout en admirant des paysages magnifiques ? Rejoignez notre association de kayak pour découvrir une activité de plein air passionnante qui s'adresse à tous les niveaux.
+                          Nos sorties de kayak en groupe, encadrées par des guides professionnels, vous permettront de partager votre passion avec d'autres membres tout en découvrant de nouveaux endroits pour pagayer et en améliorant vos compétences en kayak. Venez rejoindre notre association pour vivre une expérience unique de navigation en kayak.</p>
+                      </div>
+                    </div>
+  
+                    <div class="activités">
+                      <div class="activités-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48"><path d="M480 769q-30 0-51.5-21.5T407 696q0-30 21.5-51.5T480 623q30 0 51.5 21.5T553 696q0 30-21.5 51.5T480 769Zm-110 287V911q-82-28-119.5-96T210 666h60q2 103 55 151.5T480 866q102 0 155-48.5T690 666h60q-2 81-40 149t-120 96v145H370ZM210 606l-93-185q-11 5-23 10t-24 5q-12 0-21-8t-9-22V256q0-66 131-113t309-47q178 0 309 47t131 113v150q0 14-9 22t-21 8q-12 0-24-5t-23-10l-93 185h-60l-62-250q-37-5-74-7.5t-74-2.5q-37 0-74 2.5t-74 7.5l-62 250h-60Zm28-53 40-189q-35 8-60.5 16T163 400l75 153Zm484 0 75-153q-29-12-54.5-20T682 364l40 189ZM100 361q77-32 177-53.5T480 286q103 0 203 21.5T860 361V256q-6-11-34-28t-76.5-33Q701 179 633 167.5T480 156q-85 0-153 11.5T210.5 195Q162 211 134 228t-34 28v105Zm380-205Z"/></svg>
+                      </div>  
+                      <div class="activités-content">
+                        <h3>Parapente</h3>
+                        <p>Envie de découvrir le monde d'en haut et d'admirer des paysages magnifiques vus du ciel ? Rejoignez notre association de parapente pour vivre une expérience unique de vol en tandem ou en solo encadrée par des professionnels certifiés.
+                          Nos sorties de parapente en groupe vous permettront de partager votre passion avec d'autres membres et de découvrir de nouveaux sites de vol à travers la France et à l'étranger. Que vous soyez débutant ou expérimenté, venez découvrir le plaisir de voler en toute sécurité avec notre association de parapente.</p>
+                      </div>
+                    </div>
+
+            </div>  
+        <div class="grid">
+            <div class="grid-item">
+            </div>
+        </div>
+      <!--SECTION PARALlAX-->
+      <section class="parallax">
+        
+        <span>Partez à l'aventure</span>
+      </section>
+      
+      <!--FIN SECTION PARALlAX-->  
+
+
+
+<!--DEBUT SECTION CONTACT-->
+
+<section class="section-contact" id="contact">
+
+  <h2><strong>Rentrons</strong> en contact</h2>
+  <div class="container-form">
+
+    <form class="form-bloc">
+   
+<div class="form-groupe">
+  <label for="prenom">Entrez votre prénom</label>
+  <input type="text" placeholder="Prénom" required id="prenom">
+</div>
+
+<div class="form-groupe">
+  <label for="nom">Entrez votre nom</label>
+  <input type="text" placeholder="Nom" required id="nom">
+</div>
+
+<div class="form-groupe">
+  <textarea id="text" placeholder="Votre message" required></textarea>
+ </div>
+
+     <div class="form-groupe">
+      <input type="submit" value="ENVOYER" class="button-sub">
+     </div> 
+
+    </form>
+  </div>
+
+</section>
+
+ <!--FIN SECTION CONTACT-->
+
+ <!--FOOTER-->
+ <footer>
+ <h3>Entre ciel et pierre</h3>
+ <p>Venez explorer la nature avec notre association spécialisée dans les activités en plein air et rejoignez notre communauté de passionnés dès maintenant !</p>
+
+ <div class="footer-content">
+   <div class="socials">
+
+   
+      
+    <i class="fa-brands fa-square-facebook"></i>
+                </li>
+   
+                    <li>
+                      <i class="fa-brands fa-square-instagram"></i>
+                </li>
+
+                <li>
+                  <i class="fa-brands fa-square-twitter"></i>
+                    </li>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <li>
+            </li>
+        
+</ul>
+</div>
+    </div>
+    <div class="footer-bottom">
+      <p> &copy;2023 Entre ciel et pierre </p>
+
+    </div>
+        </footer>
+    </body>
+    </html>
+
+    <!--FIN FOOTER-->
+        
+
+
+
+
+
+            
+        
+ 
+
+         
+                
+
+
+       
+
+ 
+              
+                
+               
+           
+
+            
+    
+
+        
+
+            
+   
+       
+
+    
+
+
+       
